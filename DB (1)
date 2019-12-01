@@ -1,0 +1,55 @@
+db.general_information.insert({ 
+		Fullname:'hari',
+		Desgn:'professor',
+		Dept:'ISE',
+		Year:'2011',
+	
+		Compulsory:{
+		SJR:'1',
+		Patent:'2',
+		Funded:{
+			TL:'1',
+			FTL:'1',
+			OFL:'1',
+			OL:'1',
+			},
+		Consult:{
+			TL:'1',
+			FTL:'1',
+			OFL:'1',
+			OL:'1',
+				}
+		},
+
+		Optional:{
+			FCI:'3',
+			IND:'4',
+			NIND:'2',
+			Book:{ 
+				Num:'1',
+				Num_chap:'3',
+			},
+			DISC:'1',
+			UG:'2',
+			MS:'2',
+			PHD:'2',
+			Journal:'1',
+			Coordinator:{
+				Fivedays:'3',
+				Threedays:'1',
+				},
+			TECH:'1',
+			EOUT:'4',
+			EIN:'5',
+			Industry:'4',
+			NBA:{
+				Coordinate:'2',
+				Other:'2',
+				},
+			Society:'6',
+			Award:'4',
+			Team:'2',
+			Other:'1',
+			}
+
+})
